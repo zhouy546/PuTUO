@@ -9,7 +9,6 @@ Front,Back
 public class mLogo : MonoBehaviour
 {
     public Transform m_transform;
-    public float FlapSpeed =1f;
     public FlapState flapState = FlapState.Back;
 
     void Awake() {
